@@ -1,0 +1,29 @@
+.title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.titleGradient {
+  background: linear-gradient(45deg, #fcb045 24.21%, #ff3f78 100%);
+  font-weight: 700;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  margin-top: 32px;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .subtitle {
+    margin-top: 16px;
+  }
+}

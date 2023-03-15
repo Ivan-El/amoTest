@@ -1,0 +1,87 @@
+.advantages {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.advantagesTitle {
+  font-size: 18px;
+}
+
+.advantagesTitleGradient {
+  background: linear-gradient(-45deg, #fcb045 50%, #fd1d1d 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+}
+
+.advantagesList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 32px;
+}
+
+.advantagesListMobile {
+  display: none;
+}
+
+.advantagesItem {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.advantagesItemName {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 768px) {
+  .advantages {
+    gap: 24px;
+  }
+
+  .advantagesTitleGradient {
+    text-transform: uppercase;
+  }
+
+  .advantagesList {
+    width: fit-content;
+    grid-gap: 14px 10px;
+  }
+  .advantagesList {
+    display: grid;
+  }
+
+  .advantagesList .advantagesItem {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .advantagesList .advantagesItem::before {
+    display: inline-block;
+    content: '';
+    width: 10px;
+    height: 1px;
+    background: linear-gradient(45deg, #fcb045 50%, #fd1d1d 100%);
+  }
+
+  .advantagesListDesktop {
+    display: none;
+  }
+
+  .advantagesItemText {
+    display: none;
+  }
+}

@@ -9,8 +9,4 @@
   /* Colors */
   --primary-black: #0e1014;
   --primary-white: #e4e5ea;
-
-  /* Media-queries */
-  --width-tablet: 1100px;
-  --width-mobile: 768px;
 }

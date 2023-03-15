@@ -1,0 +1,42 @@
+.page {
+  height: 100%;
+  background-image: url('../../../../shared/assets/img/bg-img-main.png');
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  padding-top: 210px;
+  padding-bottom: 72px;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.button {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .page {
+    background-image: url('../../../../shared/assets/img/bg-img-main-mobile.png');
+  }
+
+  .container {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 40px;
+    padding-bottom: 56px;
+  }
+
+  .right {
+    text-align: right;
+  }
+}

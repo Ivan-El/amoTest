@@ -28,7 +28,7 @@
   }
 }
 
-@media (max-width: var(--width-mobile)) {
+@media (max-width: 768px) {
   .header {
     margin-top: 0;
     background-color: var(--primary-black);
@@ -50,7 +50,7 @@
     text-transform: uppercase;
   }
 
-  .navItem .navItemHidden {
+  .navItemHidden {
     display: none;
   }
 }
