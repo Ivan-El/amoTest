@@ -1,0 +1,22 @@
+.contacts {
+  display: flex;
+  gap: 16px 48px;
+  margin-left: auto;
+  flex-wrap: wrap;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+@media (max-width: var(--width-mobile)) {
+  .social {
+    display: none;
+  }
+
+  .tel {
+    display: none;
+  }
+}

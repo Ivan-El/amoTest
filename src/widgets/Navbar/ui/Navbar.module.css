@@ -14,27 +14,14 @@
   align-items: flex-start;
 }
 
-.navList  {
+.navList {
   display: flex;
   gap: 16px 32px;
   flex-wrap: wrap;
 }
 
-.contacts {
-  display: flex;
-  gap: 16px 48px;
-  margin-left: auto;
-  flex-wrap: wrap;
-}
-
-.social {
-  display: flex;
-  align-items: center;
-  gap: 32px;
-}
-
 @media (max-width: 480px) {
-  .navList  {
+  .navList {
     gap: 16px;
     font-size: 12px;
     justify-content: center;
@@ -53,31 +40,17 @@
     display: block;
   }
 
-  .logo {
-    display: none;
-  }
-
   .nav {
     width: 100%;
   }
 
-  .navList  {
+  .navList {
     width: 100%;
     flex-wrap: nowrap;
     text-transform: uppercase;
   }
 
-  .navItem  .navItemHidden {
-    display: none;
-  }
-
-  .social {
-    display: none;
-  }
-
-  .tel {
+  .navItem .navItemHidden {
     display: none;
   }
 }
-
-
