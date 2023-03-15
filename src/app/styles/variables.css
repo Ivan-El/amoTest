@@ -1,0 +1,16 @@
+:root {
+  /* font */
+  --font-family-main: 'Inter', sans-serif;
+  --font-size-main: 16px;
+  --line-height-main: 20px;
+
+  --transition: all 0.3s ease-in;
+
+  /* Colors */
+  --primary-black: #0e1014;
+  --primary-white: #e4e5ea;
+
+  /* Media-queries */
+  --width-tablet: 1100px;
+  --width-mobile: 768px;
+}

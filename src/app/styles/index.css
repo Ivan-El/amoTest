@@ -1,0 +1,70 @@
+@import './reset.css';
+@import './variables.css';
+
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  overflow-x: hidden;
+  font-size: var(--font-size-main);
+  line-height: var(--line-height-main);
+  font-family: var(--font-family-main);
+  font-weight: normal;
+  font-style: normal;
+  color: var(--primary-white);
+  background-color: var(--primary-black);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1140px;
+  min-width: 280px;
+  padding: 0 150px;
+  margin: 0 auto;
+  box-sizing: initial;
+}
+
+@media (max-width: var(--width-tablet)) {
+  .container {
+    padding: 0 50px;
+  }
+}
+
+@media (max-width: var(--width-mobile)) {
+  .container {
+    padding: 0 16px;
+  }
+}
+
+a,
+button {
+  transition: var(--transition);
+}
+
+a:hover,
+button:hover {
+  opacity: 0.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
