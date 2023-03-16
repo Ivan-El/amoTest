@@ -6,13 +6,15 @@
 
 .advantagesTitle {
   font-size: 18px;
+  line-height: 22px;
 }
 
 .advantagesTitleGradient {
-  background: linear-gradient(-45deg, #fcb045 50%, #fd1d1d 100%);
+  font-weight: 700;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 700;
 }
 
 .advantagesList {
@@ -46,17 +48,25 @@
 
 @media (max-width: 768px) {
   .advantages {
-    gap: 24px;
+    gap: 20px;
   }
 
   .advantagesTitleGradient {
-    text-transform: uppercase;
+    text-transform: lowercase;
+  }
+
+  .advantagesTitle {
+    text-align: left;
+    font-size: 18px;
   }
 
   .advantagesList {
+    grid-template-columns: max-content max-content;
+    gap: 14px 10px;
     width: fit-content;
-    grid-gap: 14px 10px;
+    font-family: 'Montserrat', sans-serif;
   }
+
   .advantagesList {
     display: grid;
   }

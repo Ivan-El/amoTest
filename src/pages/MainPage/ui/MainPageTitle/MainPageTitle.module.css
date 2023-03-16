@@ -6,7 +6,7 @@
 
 .titleGradient {
   background: linear-gradient(45deg, #fcb045 24.21%, #ff3f78 100%);
-  font-weight: 700;
+  font-weight: 900;
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -24,6 +24,9 @@
   }
 
   .subtitle {
+    font-family: 'Montserrat', sans-serif;
     margin-top: 16px;
+    font-size: 18px;
+    line-height: 22px;
   }
 }

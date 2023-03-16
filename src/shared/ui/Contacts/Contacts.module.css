@@ -19,11 +19,33 @@
 }
 
 @media (max-width: 768px) {
+  .footer {
+    align-items: start;
+    gap: 8px 0;
+  }
+
   .social {
     display: none;
   }
 
+  .footer .social {
+    display: flex;
+    gap: 10px;
+  }
+
+  .socialIcon {
+    width: 24px;
+    height: 24px;
+  }
+
   .tel {
     display: none;
+  }
+
+  .footer .tel {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
   }
 }

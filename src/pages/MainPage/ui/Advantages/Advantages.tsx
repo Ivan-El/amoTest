@@ -8,7 +8,7 @@ export const Advantages = memo(() => {
             <p className={cls.advantagesTitle}>
               Вместе с{' '}
               <span className={cls.advantagesTitleGradient}>
-                бесплатной <br /> консультацией{' '}
+                бесплатной</span> <br /> <span className={cls.advantagesTitleGradient}>консультацией{' '}
               </span>{' '}
               мы дарим:
             </p>

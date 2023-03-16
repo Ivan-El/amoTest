@@ -18,7 +18,7 @@
   .header {
     margin-top: 0;
     background-color: var(--primary-black);
-    padding: 20px 0;
+    padding: 20px 0 15px;
     position: initial;
   }
 

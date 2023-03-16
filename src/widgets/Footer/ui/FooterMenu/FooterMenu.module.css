@@ -10,16 +10,9 @@
   gap: 10px;
 }
 
-.menuListContacts {
-  text-align: right;
-  gap: 20px;
-}
-
-.menuListMenu {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  gap: 10px 52px;
-  margin-right: auto;
+.menuWrapper {
+    display: flex;
+    gap: 45px;
 }
 
 .menuItemTitle {
@@ -27,33 +20,47 @@
 }
 
 .menuTitle {
-  display: inline-block;
-  margin-bottom: 10px;
+  min-height: 15px;
+  margin-bottom: 21px;
   text-transform: uppercase;
-  color: #656566;
+  color: var(--dark-gray);
   font-size: 14px;
   font-weight: 700;
 }
 
-.menuLinkTel {
-  white-space: nowrap;
+
+.linkTextMobile {
+    display: none;
 }
 
 @media (max-width: 768px) {
   .menu {
     flex-direction: column;
     font-size: 14px;
-    gap: 32px;
+    line-height: 17px;
+    gap: 30px;
   }
 
-  .menuListContacts {
-    text-align: left;
+  .menuList {
     gap: 10px;
   }
+
+  .menuTitle {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+  }
+
+  .gratitude {
+    order: -1;
+  }
+
+  .linkText {
+    display: none;
+  }
+
+  .linkTextMobile {
+    display: inline;
+}
 }
 
-@media (max-width: 1100px) {
-  .menu {
-    gap: 48px;
-  }
-}

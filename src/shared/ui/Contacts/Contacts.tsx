@@ -21,17 +21,17 @@ export const Contacts = memo((props: ContactsProps) => {
       <ul className={cls.social}>
         <li className={cls.socialItem}>
           <Link className={cls.socialLink} to="/">
-            <img src={telegramIcon} alt="icon-telegram" />
+            <img className={cls.socialIcon} src={telegramIcon} width="20" height="20" alt="icon-telegram" />
           </Link>
         </li>
         <li className={cls.socialItem}>
           <Link className={cls.socialLink} to="/">
-            <img src={viberIcon} alt="icon-viber" />
+            <img className={cls.socialIcon} src={viberIcon} width="20" height="20" alt="icon-viber" />
           </Link>
         </li>
         <li className={cls.socialItem}>
           <Link className={cls.socialLink} to="/">
-            <img src={whatsappIcon} alt="icon-whatsapp" />
+            <img className={cls.socialIcon} src={whatsappIcon} width="20" height="20" alt="icon-whatsapp" />
           </Link>
         </li>
       </ul>
