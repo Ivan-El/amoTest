@@ -22,7 +22,6 @@ export const FooterMenu = () => {
           </li>
         </ul>
       </div>
-
       <div className={cls.menuWrapper}>
         <div>
           <div className={cls.menuTitle}>Меню</div>
@@ -55,7 +54,6 @@ export const FooterMenu = () => {
             </li>
           </ul>
         </div>
-
         <div>
           <div className={cls.menuTitle}>
             <span className={cx('visually-hidden')}>Дополнительно</span>
@@ -74,19 +72,16 @@ export const FooterMenu = () => {
                 </span>
               </Link>
             </li>
-
             <li className={cls.menuItem}>
               <Link className={cls.menuLink} to="/">
                 Сертификаты
               </Link>
             </li>
-
             <li className={cls.menuItem}>
               <Link className={cls.menuLink} to="/">
                 Блог на Youtube
               </Link>
             </li>
-
             <li className={cls.menuItem}>
               <Link className={cls.menuLink} to="/">
                 Вопрос / Ответ

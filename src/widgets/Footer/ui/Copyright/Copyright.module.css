@@ -8,6 +8,10 @@
   line-height: 15px;
 }
 
+.copy a {
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   .copy {
     text-align: left;

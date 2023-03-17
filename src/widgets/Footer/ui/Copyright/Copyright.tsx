@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 export const Copyright = memo(() => {
     return (
         <div className={cls.copy}>
-          <p>©WELBEX 2022. Все права защищены.</p>
-          <Link to="/">Политика конфиденциальности !!!</Link>
+          <p><span>&#169;</span>WELBEX 2022. Все права защищены.</p>
+          <Link to="/">Политика конфиденциальности</Link>
         </div>
     );
 });

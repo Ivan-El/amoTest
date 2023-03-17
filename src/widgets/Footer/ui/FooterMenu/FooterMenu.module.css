@@ -1,18 +1,25 @@
 .menu {
   display: flex;
-  justify-content: space-between;
-  gap: 96px;
+}
+
+.menu div:last-child {
+  text-align: right;
 }
 
 .menuList {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 9px;
 }
 
 .menuWrapper {
-    display: flex;
-    gap: 45px;
+  display: flex;
+  gap: 50px;
+  margin: 0 auto 0 98px;
+}
+
+.menuWrapper div:last-child {
+  text-align: left;
 }
 
 .menuItemTitle {
@@ -20,17 +27,18 @@
 }
 
 .menuTitle {
-  min-height: 15px;
+  min-height: 17px;
   margin-bottom: 21px;
   text-transform: uppercase;
   color: var(--dark-gray);
-  font-size: 14px;
   font-weight: 700;
+  line-height: 17px;
+  font-size: 14px;
+  letter-spacing: 0.05em;
 }
 
-
 .linkTextMobile {
-    display: none;
+  display: none;
 }
 
 @media (max-width: 768px) {
@@ -46,9 +54,15 @@
   }
 
   .menuTitle {
+    min-height: 15px;
     font-size: 12px;
     line-height: 15px;
     letter-spacing: 0.05em;
+  }
+
+  .menuWrapper {
+    gap: 45px;
+    margin: 0;
   }
 
   .gratitude {
@@ -61,6 +75,5 @@
 
   .linkTextMobile {
     display: inline;
+  }
 }
-}
-

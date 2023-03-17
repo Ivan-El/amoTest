@@ -5,13 +5,17 @@
 }
 
 .advantagesTitle {
+  margin-top: 15px;
   font-size: 18px;
   line-height: 22px;
+  font-weight: 500;
+  text-align: right;
 }
 
 .advantagesTitleGradient {
   font-weight: 700;
   text-transform: uppercase;
+  letter-spacing: 0.05em;
   background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -36,14 +40,24 @@
   line-height: 16px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+  text-align: right;
 }
 
 .advantagesItemName {
   text-transform: uppercase;
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 16px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
   letter-spacing: 0.05em;
+}
+
+.advantagesItemText {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: none;
+  letter-spacing: normal;
 }
 
 @media (max-width: 768px) {
@@ -53,11 +67,11 @@
 
   .advantagesTitleGradient {
     text-transform: lowercase;
+    letter-spacing: normal;
   }
 
   .advantagesTitle {
     text-align: left;
-    font-size: 18px;
   }
 
   .advantagesList {

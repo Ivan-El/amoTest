@@ -12,7 +12,7 @@ export const MainPage = memo(() => {
         <MainPageTitle />
         <div className={cls.right}>
           <Advantages />
-          <Button className={cls.button} variant="primary" type="button">
+          <Button className={cls.btn} variant="primary" type="button">
             Получить консультацию
           </Button>
         </div>

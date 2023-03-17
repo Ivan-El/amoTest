@@ -37,8 +37,7 @@ export const Advantages = memo(() => {
                   использования <br /> CRM
                 </span>
               </li>
-            </ul>
-            
+            </ul>            
             <ul className={cx(cls.advantagesList, cls.advantagesListMobile)}>
               <li className={cls.advantagesItem}>Skype аудит</li>
               <li className={cls.advantagesItem}>30 виджетов</li>

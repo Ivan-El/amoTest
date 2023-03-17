@@ -3,7 +3,7 @@
   background-image: url('../../../../shared/assets/img/bg-img-main.png');
   background-position: left top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1253px 954px;
 }
 
 .container {
@@ -17,16 +17,15 @@
 .right {
   display: flex;
   flex-direction: column;
-  gap: 60px;
-}
-
-.button {
-  display: none;
+  align-items: end;
+  gap: 57px;
 }
 
 @media (max-width: 768px) {
   .page {
     background-image: url('../../../../shared/assets/img/bg-img-main-mobile.png');
+    background-position: left top;
+    background-size: cover;
   }
 
   .container {
@@ -34,9 +33,15 @@
     justify-content: flex-start;
     padding-top: 40px;
     padding-bottom: 58px;
+    gap: 30px;
   }
 
   .right {
+    align-items: flex-start;
     text-align: right;
+  }
+
+  .btn {
+    display: none;
   }
 }

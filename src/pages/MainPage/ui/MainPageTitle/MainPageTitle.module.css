@@ -14,6 +14,8 @@
 .subtitle {
   margin-top: 32px;
   font-size: 18px;
+  line-height: 22px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width: 768px) {
@@ -23,10 +25,7 @@
     line-height: 44px;
   }
 
-  .subtitle {
-    font-family: 'Montserrat', sans-serif;
+  .subtitle {    
     margin-top: 16px;
-    font-size: 18px;
-    line-height: 22px;
   }
 }
