@@ -10,7 +10,7 @@ const App = () => {
       <main>
         <AppRouter />
       </main>
-      <Footer/>
+      <Footer />
     </>
   );
 };

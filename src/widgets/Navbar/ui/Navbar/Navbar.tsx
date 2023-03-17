@@ -11,7 +11,7 @@ export const Navbar = memo(() => {
     <header className={cls.header}>
       <div className={cx(cls.container, 'container')}>
         <Logo />
-        <MainNav/>
+        <MainNav />
         <Contacts />
       </div>
     </header>

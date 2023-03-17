@@ -4,7 +4,7 @@ import cls from './Contacts.module.css';
 import telegramIcon from 'shared/assets/icons/telegram.svg';
 import viberIcon from 'shared/assets/icons/viber.svg';
 import whatsappIcon from 'shared/assets/icons/whatsapp.svg';
-import cx  from 'classnames';
+import cx from 'classnames';
 
 interface ContactsProps {
   footer?: boolean;
@@ -14,24 +14,42 @@ export const Contacts = memo((props: ContactsProps) => {
   const { footer = false } = props;
 
   return (
-    <div className={cx(cls.contacts, {[cls.footer]: footer})}>
+    <div className={cx(cls.contacts, { [cls.footer]: footer })}>
       <Link className={cls.tel} to="/">
         +7 555 555-55-55
       </Link>
       <ul className={cls.social}>
         <li className={cls.socialItem}>
           <Link className={cls.socialLink} to="/">
-            <img className={cls.socialIcon} src={telegramIcon} width="20" height="20" alt="icon-telegram" />
+            <img
+              className={cls.socialIcon}
+              src={telegramIcon}
+              width="20"
+              height="20"
+              alt="icon-telegram"
+            />
           </Link>
         </li>
         <li className={cls.socialItem}>
           <Link className={cls.socialLink} to="/">
-            <img className={cls.socialIcon} src={viberIcon} width="20" height="20" alt="icon-viber" />
+            <img
+              className={cls.socialIcon}
+              src={viberIcon}
+              width="20"
+              height="20"
+              alt="icon-viber"
+            />
           </Link>
         </li>
         <li className={cls.socialItem}>
           <Link className={cls.socialLink} to="/">
-            <img className={cls.socialIcon} src={whatsappIcon} width="20" height="20" alt="icon-whatsapp" />
+            <img
+              className={cls.socialIcon}
+              src={whatsappIcon}
+              width="20"
+              height="20"
+              alt="icon-whatsapp"
+            />
           </Link>
         </li>
       </ul>

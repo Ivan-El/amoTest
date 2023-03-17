@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { memo } from 'react';
 import cls from './MainNav.module.css';
 import { Link } from 'react-router-dom';
 
-export const MainNav = () => {
+export const MainNav = memo(() => {
   return (
     <nav className={cls.nav}>
       <ul className={cls.navList}>
@@ -34,4 +34,4 @@ export const MainNav = () => {
       </ul>
     </nav>
   );
-};
+});
